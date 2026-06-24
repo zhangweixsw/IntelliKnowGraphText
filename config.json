@@ -1,0 +1,11 @@
+{
+  "provider": "lmstudio",
+  "lmstudio_url": "http://127.0.0.1:12345/v1",
+  "ollama_url": "http://localhost:11434",
+  "selected_model": "qwen3.5-0.8b",
+  "output_dir": "",
+  "auto_export_md": true,
+  "auto_export_excel": true,
+  "increment_update": true,
+  "prompt_template": "完整性：全面扫描图片全域（含主视觉区、边角区域、水印区域、注释区域、嵌套文本区域等），确保无文本信息遗漏；2. 原真性：严格保留提取文本的原始内容、字体样式标注（如加粗、斜体、下划线）、标点符号、特殊字符、换行格式及语言表述，不进行任何修改、删减或语义优化；3. 精准性：针对模糊文本、倾斜文本、遮挡文本、多语言文本（含中英文及其他语种），通过大模型多模态识别能力优化提取精度，降低识别误差，对无法精准识别的文本标注“【识别存疑：XXX】”（XXX为模糊识别内容）。 2.描述图片的信息，越详细越好"
+}
