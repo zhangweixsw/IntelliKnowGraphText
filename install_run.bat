@@ -1,0 +1,6 @@
+@echo off
+cd /d "%~dp0"
+echo Installing dependencies...
+"C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe" -m pip install PyQt6 requests pillow pdf2image pypdf python-dotenv sqlmodel openpyxl -q
+echo Starting application...
+"C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe" run.py
