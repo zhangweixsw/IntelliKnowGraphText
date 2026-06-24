@@ -9,17 +9,15 @@
 - 支持图文混合处理
 
 ## 技术栈
-- Python
+- Python / PyInstaller
 - 本地大模型（LLM）集成
-- PyInstaller 打包
 
 ## 项目结构
 - `core/` - 核心模块（文档处理、LLM 客户端、处理器）
-- `data/` - 数据层（数据库）
-- `config.json` - 配置文件
+- `data/` - 数据层
+- `config.json` - 配置
 - `main.py` - 入口
 
 ## 使用
-1. 安装依赖
-2. 配置 `config.json`
-3. `python main.py`
+1. 配置 `config.json`
+2. `python main.py`
